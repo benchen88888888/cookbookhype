@@ -60,7 +60,19 @@
 
       </div>
     </div>
+    <!-- Add outline support -->
 
+    <style>
+      .strokeme
+      {
+      color: white;
+      text-shadow:
+      -.5px -.5px 0 #000,
+      .5px -.5px 0 #000,
+      -.5px .5px 0 #000,
+      .5px .5px 0 #000;  
+      }
+    </style>
 
     <!-- Carousel
     ================================================== -->
@@ -75,8 +87,8 @@
           <img class="first-slide" src="images/Fruit.jpg" alt="First slide" height=500 width=auto >
           <div class="container">
             <div class="carousel-caption">
-              <h1>Analyze Ingredients</h1>
-              <p>Using Clarifai API, we analyze a picture of each of your ingredients</p>
+              <h1 class="strokeme">Analyze Ingredients</h1>
+              <p class="strokeme">Using Clarifai API, we analyze a picture of each of your ingredients</p>
               <p><a class="btn btn-lg btn-primary" href="https://github.com/dmathew93/SwampHacks2016" role="button" style="background:#ff4000;">Check it out now!</a></p>
             </div>
           </div>
@@ -85,8 +97,8 @@
           <img class="second-slide" src="images/Chef.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Look for recipes in a recipe list</h1>
-              <p>Retrieves recipes that work with what you have on hand, without having to type a single ingredient!</p>
+              <h1 class="strokeme">Look for recipes in a recipe list</h1>
+              <p class="strokeme">Retrieves recipes that work with what you have on hand, without having to type a single ingredient!</p>
               <p><a class="btn btn-lg btn-primary" href="https://github.com/dmathew93/SwampHacks2016" role="button" style="background:#ff4000;">Learn more</a></p>
             </div>
           </div>
@@ -124,7 +136,7 @@
         <div class="col-lg-4">
           <img class="img-circle" src="images/Machine_Learning.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Machine Learning!</h2>
-          <p>Using Clarify API, we analyze the picture taken and predict what the item is in! </p>
+          <p>Using Clarify API, we analyze the picture taken and predict what the item is! </p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -135,7 +147,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">The Simplicity. <span class="text-muted">It'll blow your mind.</span></h2>
+          <h2 class="featurette-heading">Simplicity. <span class="text-muted">It'll blow your mind.</span></h2>
           <p class="lead">From the moment you open the app you can have quick access to the camera.</p>
         </div>
         <div class="col-md-5">
